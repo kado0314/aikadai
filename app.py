@@ -278,8 +278,7 @@ if screen == "数当て":
             st.session_state.clear()
 
 elif screen == "手話":
-    #hand_sign_mode()
-    st.info("ローカル環境のみ対応ｺﾞﾒﾝｰ")
+    hand_sign_mode()
 elif screen == "数当てver0.0.1":
     fruit_options = ["りんご", "みかん"]
     if "v001_consecutive_streak" not in st.session_state:
