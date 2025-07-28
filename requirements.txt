@@ -4,6 +4,6 @@ diffusers
 transformers
 safetensors
 opencv-python-headless
-mediapipe
+#mediapipe
 numpy
 pillow
