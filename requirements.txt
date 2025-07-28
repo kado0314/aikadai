@@ -9,4 +9,5 @@ torch
 torchaudio
 torchvision
 ultralytics
-seaborn # この行が追加されているか、スペルミスがないか確認
+seaborn
+streamlit-webrtc # この行を追加
