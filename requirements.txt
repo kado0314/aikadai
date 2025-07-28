@@ -9,4 +9,4 @@ torch
 torchaudio
 torchvision
 ultralytics
-seaborn # これを追加
+seaborn # この行が追加されているか、スペルミスがないか確認
