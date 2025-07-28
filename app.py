@@ -1,5 +1,3 @@
-# YOLOv5のインストール部分はStreamlit Cloudなどでは実行済み前提のため省略
-# 必要ならrequirements.txtで管理してください
 
 import streamlit as st
 from diffusers import StableDiffusionPipeline
@@ -8,7 +6,6 @@ import random
 import os
 from PIL import Image
 import cv2
-import mediapipe as mp
 import numpy as np
 import math
 
@@ -281,8 +278,8 @@ if screen == "数当て":
             st.session_state.clear()
 
 elif screen == "手話":
-    hand_sign_mode()
-
+    #hand_sign_mode()
+    st.info("ローカル環境のみ対応ｺﾞﾒﾝｰ")
 elif screen == "数当てver0.0.1":
     fruit_options = ["りんご", "みかん"]
     if "v001_consecutive_streak" not in st.session_state:
