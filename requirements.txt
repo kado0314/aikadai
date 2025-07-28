@@ -8,4 +8,5 @@ safetensors
 torch
 torchaudio
 torchvision
-ultralytics # これを追加
+ultralytics
+seaborn # これを追加
