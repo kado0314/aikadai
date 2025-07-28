@@ -1,9 +1,10 @@
 streamlit
-torch
+opencv-python
+mediapipe
 diffusers
 transformers
+accelerate
 safetensors
-opencv-python-headless
-#mediapipe
-numpy
-pillow
+torch
+torchaudio
+torchvision
