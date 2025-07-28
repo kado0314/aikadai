@@ -1,4 +1,3 @@
-%%writefile FruitGuess_app.py
 import streamlit as st
 from diffusers import StableDiffusionPipeline
 import torch
